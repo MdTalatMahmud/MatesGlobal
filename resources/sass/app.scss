@@ -1,0 +1,12 @@
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+$enable-responsive-font-sizes: true;
+
+@import 'animate.min';
+//@import "~owl.carousel";
+// @import 'owl.carousel.min';
+@import "mixins";
+@import "styles";
+@import 'responsive-upscaling';
+

@@ -1,0 +1,251 @@
+//576px
+@include media-breakpoint-up(sm) {
+    .home-sologan {
+        h6 {
+            font-size: 1rem;
+        }
+    }
+}
+
+//768px
+@include media-breakpoint-up(md) {
+    .home-sec-single-block {
+        span {
+            left: -16px;
+            top: 105px;
+        }
+
+        h4 {
+        }
+    }
+
+    .single-block-last {
+        height: 98%;
+
+        h2 {
+        }
+
+        p {
+        }
+
+        a {
+            &:hover {
+            }
+        }
+    }
+
+    .footer-block {
+        padding: 40px 0;
+    }
+
+
+    .content-block {
+
+        h1 {
+        }
+
+        h2 {
+        }
+
+        h3 {
+
+        }
+
+        p {
+            a {
+            }
+
+        }
+
+        ul {
+            li {
+                &:after {
+                }
+            }
+        }
+    }
+
+
+}
+
+//992px
+@include media-breakpoint-up(lg) {
+    .top-ribbon {
+        display: block;
+    }
+
+    .enquire-now {
+        display: block;
+        .enquire-now__link {
+            font-size: 20px;
+            line-height: 48px;
+            padding: 14px 10px;
+        }
+    }
+
+    .telephone-now {
+        display: block;
+        .telephone-now__link {
+            font-size: 20px;
+            line-height: 48px;
+            padding: 14px 10px;
+        }
+        .telephone-now__llabel {}
+        .telephone-now__value {}
+    }
+
+    .related-navigation {
+        //background: 0 0;
+        background-color: $primary;
+
+        .related-navigation__header {
+        }
+        .related-navigation__list { //ul
+            .related-navigation__item { //li
+                .related-navigation__link { //a
+                }
+            }
+        }
+    }
+}
+
+//1200px
+@include media-breakpoint-up(xl) {
+    .home-sologan {
+        h6 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+
+}
+
+
+@media (max-width: 576px) {
+
+    .owl-carousel .owl-item.owl-partner img {
+        max-width: 96px;
+        padding: 0 16px;
+        height: 34px;
+    }
+    .carousel-caption {
+        right: 10% !important;
+        bottom: 45px !important;
+        width: 255px !important;
+        text-align: center !important;
+
+        h5 {
+            text-align: left !important;
+        }
+
+        p {
+            text-align: left !important;
+            font-size: 15px !important;
+        }
+    }
+    .fea-d-s-block .fea-hr {
+        left: 42%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .mobile-center {
+        text-align: center;
+    }
+    .mobile-center p {
+        text-align: center;
+    }
+    #main-slider-section .slider-text h1 {
+        font-size: 40px;
+    }
+    #main-slider-section .slider-btn {
+        font-size: 16px;
+        padding: .375rem 0.4rem !important;
+    }
+    .fea-d-s-block {
+        text-align: left;
+    }
+    .fea-d-s-block .fea-hr {
+        left: 6.4%;
+    }
+    .owl-carousel .owl-item.owl-partner img {
+        max-width: 96px;
+        max-height: 34px;
+    }
+    .left-block {
+        padding-left: 0 !important;
+    }
+    .page-about ul {
+        padding-left: 20px;
+    }
+    .pro-cat ul {
+        padding-left: 20px;
+    }
+    .fruit-vege-header .fea-hr {
+        left: 0%;
+        top: 16%;
+    }
+    .fruit-vege-header {
+        text-align: left;
+    }
+    .fruit-vege-header p {
+        text-align: left;
+        width: 100%;
+    }
+
+    .need-exp-top .fea-hr {
+        left: 0%;
+        top: 52%;
+    }
+    //.footer-block {
+    //    padding: 0px 0 !important;
+    //}
+
+}
+
+@media (max-width: 992px) {
+    header {
+        //height: 90px;
+    }
+    .header {
+        //position: fixed;
+        //z-index: 9999999999999999;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        top: 40px;
+        left: 0;
+        transform: translateX(-100%);
+        transition: all ease 0.3s;
+        bottom: 0;
+        width: 100vw;
+        background: #1e342c;
+        z-index: 999999999999999999999999999999999999999999999999;
+        height: 100%;
+    }
+    .mobile-menu .nav-item {
+        margin: 0px 15px;
+    }
+    .mobile-menu.open-slide {
+        transform: translateX(0);
+    }
+    .m-nai {
+        display: none;
+    }
+    .left-block {
+        padding-left: 48px;
+    }
+
+    .align-self-end {
+        align-self: flex-start !important;
+    }
+    button:focus {
+        outline: 1px dotted;
+        //outline: none;
+    }
+}
+
